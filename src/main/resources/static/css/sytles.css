@@ -1,0 +1,46 @@
+/* styles.css */
+.control-panel {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 250px;
+      height: 400px;
+      background-color: light-gray;
+      border: 1px solid #000;
+      padding: 10px;
+      display: none;
+    }
+
+    .append-to-csv-container {
+      position: relative;
+    }
+
+    .star-button::before {
+      content: "\2605";
+    }
+
+    .table-container {
+      max-height: 350px;
+      overflow-y: scroll;
+    }
+
+    .heading-smaller {
+        font-size: 16px;
+    }
+
+
+   #sentence-list-csv {
+        line-height: 1;
+        font-size: 12px;
+    }
+
+    #sentence-list-csv td {
+      padding: 0;
+      vertical-align: middle;
+      user-select: text;
+    }
+
+    .custom-button {
+      background-color: light-gray;
+      outline: none;
+    }
